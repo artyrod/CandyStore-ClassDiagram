@@ -9,7 +9,7 @@ class Person:
         self.person_id = person_id
         self.name = name
         self.email = email
-        self.email_verified = email_verified  # New: track verification status
+        self.email_verified = email_verified  # New: track verification
 
     def display_info(self):
         return f"{self.name} ({self.email})"
